@@ -1,0 +1,53 @@
+//These variables are meant to be changed by project
+//Included to get things started
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:200,400,600,800');
+
+@include border-box-sizing; // uses border box sizing like old IE
+
+$susy: (
+	columns: 12,
+	container: 60em,
+	gutters: 1/4,
+	gutter-position: inside
+);
+
+// Breakpoints
+
+$narrow: 400px;
+$small: 650px;
+$medium: 960px;
+$wide: 1200px;
+
+// Color Palette
+
+$pink	: #CD0069;
+$red	: #DF4848;
+$orange	: #E27A3F;
+$yellow	: #EFC94C;
+$green	: #45B29D;
+$blue	: #063642;
+$purple	: #C671C4;
+
+$dark	: #000000;
+$light	: #FFFFFF;
+
+$backgroundColor	: $light;
+$typeDefault		: $dark;
+$navBackground		: $blue;
+$navForeground		: $light;
+$navHover			: $yellow;
+$navBrandBg			: $red;
+$headersubbg		: $dark;
+
+// Font Stuff
+$fontfamily			: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$thin	: 200;
+$normal	: 400;
+$bold	: 600;
+$heavy	: 800;
+
+$headFont	: $thin 1.5em/1.5em $fontfamily;
+$mainFont	: $thin 1em/1.5em $fontfamily;
+$headColor	: lighten($blue, 20);

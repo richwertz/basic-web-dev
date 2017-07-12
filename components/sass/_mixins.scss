@@ -1,0 +1,12 @@
+// Who doesn't need a good clearfix?
+
+@mixin clearfix {
+	&:before,
+	&:after {
+		content: '';
+		display: table;
+	} // before, after
+	&:after {
+		clear: both;
+	} // after
+} // clearfix
