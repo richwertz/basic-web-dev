@@ -4,7 +4,7 @@
   "description": "Basic Development Environment with Sass, Compass, Susy 2, etc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/richwertz/basicdevenv.git"
+    "url": "https://github.com/richwertz/basic-web-dev.git"
   },
   "author": "Rich Wertz",
   "devDependencies": {
